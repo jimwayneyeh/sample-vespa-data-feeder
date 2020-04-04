@@ -18,6 +18,7 @@
 	<properties>
 		<reactor.version>Bismuth-RELEASE</reactor.version>
 		<java.version>11</java.version>
+		<opencsn.version>5.1</opencsn.version>
 	</properties>
 
 	<dependencies>
@@ -28,6 +29,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>${opencsn.version}</version>
 		</dependency>
 
 		<dependency>
